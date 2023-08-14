@@ -29,6 +29,7 @@ int main()
     const char *command_c_str = command.c_str();
 
     cout << "In Secrity Settings --> the key content is the wifi password..." << endl;
+    Sleep(1000);
     system(command_c_str);
     system("pause");
     return 0;
